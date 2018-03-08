@@ -480,4 +480,9 @@ public class Acme {
 			return false;
 		}
 	}
+
+	public CertificateStorage getCertificateStorage() {
+		return certificateStorage;
+	}
+
 }
